@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        :root {
+            --bg-color: #0f172a; 
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            --card-bg: #1e293b;
+            --border-color: #334155;
+            --text-main: #f8fafc;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column; /* Stack heading above video */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            font-family: 'Inter', -apple-system, sans-serif;
+            text-align: center; /* Center-aligns all inline children */
+            color: var(--text-main);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; /* Makes the text use the gradient */
+            font-weight: 800;
+            letter-spacing: -0.025em;
+        }
+
+        iframe {
+            border: 2px solid var(--border-color);
+            border-radius: 20px;
+            max-width: 90%; /* Basic mobile responsiveness */
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 
+                        0 0 25px rgba(99, 102, 241, 0.15);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        iframe:hover {
+            transform: translateY(-5px) scale(1.02);
+            border-color: #6366f1;
+            box-shadow: 0 25px 35px -5px rgba(0, 0, 0, 0.5), 
+                        0 0 30px rgba(168, 85, 247, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <h1>Find our demo video on YT 👇</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nu3C-L9FHT4?si=C9TEmLEAOYSfJoZS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
