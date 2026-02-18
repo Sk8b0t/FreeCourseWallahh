@@ -2,7 +2,7 @@
 
 **FreeCourseWallah** is a centralized website that curates and lists **free online courses** from various platforms — making it easy for learners to discover high-quality educational resources without spending hours searching. :contentReference[oaicite:1]{index=1}
 
-👉 **Live Link:** https://freecoursewallah.vercel.app/
+👉 **Live Link:**https://freecoursewallah.vercel.app/
 
 ---
 
@@ -20,10 +20,15 @@ It’s useful for students, self-taught learners, and anyone wanting to learn ne
 ## 📁 Repository Structure
 /
 ├── index.html # Main HTML file for the website
+
 ├── logic.js # JavaScript for interactive behavior
+
 ├── styles.css # Styling for the UI
+
 ├── about/html # for about section
+
 └── README.md # This description file
+
 
 
 
